@@ -77,6 +77,6 @@ app.use(function (req, res, next) {
   });
 });
 
-var server = app.listen(process.env.PORT || 9000, 'localhost', function () {
+var server = app.listen(process.env.PORT, function () {
   console.dir(server.address());
 });
